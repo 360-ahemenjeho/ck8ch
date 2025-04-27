@@ -1,0 +1,46 @@
+:root {
+  --btn-size: 26px;
+  --slider-size: 10px;
+  --slider-bg: #f7366a;
+  --slider-thumb: #28c3ff;
+  --divider: #ececec46;
+  font-family: monospace;
+  --bg: #040404;
+  --bg-2: #3b3939;
+  --fg: #ffffffde;
+  color: var(--fg);
+  background-color: var(--bg);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+}
+
+canvas {
+  touch-action: none;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --divider: #8594aa8c;
+    --bg: #f8fafc;
+    --bg-2: #c0c8d3;
+    --fg: #0f172a;
+    color: var(--fg);
+    background-color: var(--bg);
+  }
+}
