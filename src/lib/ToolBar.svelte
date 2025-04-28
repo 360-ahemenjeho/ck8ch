@@ -30,7 +30,7 @@
 
 <style>
   .tool__bar {
-    position: absolute;
+    position: fixed;
     left: 50%;
     bottom: var(--layout-space);
     transform: translateX(-50%);

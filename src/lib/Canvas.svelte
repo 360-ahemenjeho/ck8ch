@@ -15,19 +15,13 @@
     context = canvas.getContext('2d')
 
     function resize() {
-      canvas.width = window.visualViewport?.width || window.innerWidth
-      canvas.height = window.visualViewport?.height || window.innerHeight
+      canvas.width = window.innerWidth
+      canvas.height = window.innerHeight
     }
 
     resize()
-
-    window.visualViewport?.addEventListener('resize', resize)
-    window.visualViewport?.addEventListener('scroll', resize)
-
-    return () => {
-      window.visualViewport?.removeEventListener('resize', resize)
-      window.visualViewport?.removeEventListener('scroll', resize)
-    }
+    window.addEventListener('resize', resize)
+    return () => window.removeEventListener('resize', resize)
   })
 </script>
 

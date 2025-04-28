@@ -17,7 +17,7 @@
 
 <style>
   .size__bar {
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: var(--layout-space);
     transform: translateX(-50%);
