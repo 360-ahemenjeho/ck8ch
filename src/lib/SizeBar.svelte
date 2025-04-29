@@ -37,8 +37,8 @@
   .size__slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    height: calc(var(--slider-size) * 2.5);
-    width: calc(var(--slider-size) * 2.5);
+    height: calc(var(--slider-size) * 1.5);
+    width: calc(var(--slider-size) * 1.5);
     border-radius: 999px;
     background-color: var(--slider-thumb);
     cursor: pointer;
