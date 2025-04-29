@@ -27,7 +27,7 @@
     -webkit-appearance: none;
     appearance: none;
     height: var(--slider-size);
-    background-color: var(--bg-2);
+    background-color: var(--fg);
     border-radius: 999px;
     outline: none;
     box-shadow: none;
